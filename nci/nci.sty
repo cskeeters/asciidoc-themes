@@ -1,0 +1,31 @@
+%%
+%% This style is derived from the docbook one.
+%%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{nci}[2013/02/01 NCI DocBook Style]
+%% Just use the original package and pass the options.
+\RequirePackageWithOptions{docbook}
+
+% Required for verse, at least in xetex
+\usepackage{alltt}
+
+%\usepackage{sectsty}
+%\setmainfont{DejaVu Sans}
+%\sectionfont{\fontspec{DejaVu Sans Semi-Condensed}}
+%\subsectionfont{\fontspec{Lucida Console}}
+%\subsubsectionfont{\fontspec{Lucida Console}}
+%\subsubsubsectionfont{\fontspec{Lucida Console}}
+
+%\setmainfont{CMU Sans Serif}                 % Computer Modern Unicode font
+%\setsansfont{CMU Sans Serif}
+%\setmonofont{CMU Typewriter Text}
+
+\setmainfont{DejaVu Sans}                 % Computer Modern Unicode font
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+
+
+\usepackage{sectsty}
+\sectionfont{\fontspec{DejaVu Sans Condensed}}
+\subsectionfont{\fontspec{DejaVu Serif Condensed}}
+\subsubsectionfont{\fontspec{DejaVu Sans Condensed}}
